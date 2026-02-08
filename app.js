@@ -214,3 +214,4 @@ function startLatency(){
   showPage(PAGES.includes(hash) ? hash : "home");
 
 })();
+
