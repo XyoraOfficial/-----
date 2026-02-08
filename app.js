@@ -212,4 +212,5 @@ function startLatency(){
 
   const hash = (location.hash || "#home").replace("#", "");
   showPage(PAGES.includes(hash) ? hash : "home");
+
 })();
