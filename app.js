@@ -1,8 +1,8 @@
 // =============================
-// FIFF — Enterprise SPA + Theme
+// XYORA — Enterprise SPA + Theme
 // =============================
 
-const TELEGRAM = "https://t.me/fifonemsg";
+const TELEGRAM = "https://t.me/XwyyXyora";
 
 const PAGES = ["home", "vps", "panel", "about"];
 
@@ -86,7 +86,7 @@ function showPage(page){
 // Theme
 // -----------------------------
 function getSavedTheme(){
-  return localStorage.getItem("fiff_theme") || "dark";
+  return localStorage.getItem("xyora_theme") || "dark";
 }
 
 function setTheme(mode){
@@ -214,5 +214,6 @@ function startLatency(){
   showPage(PAGES.includes(hash) ? hash : "home");
 
 })();
+
 
 
